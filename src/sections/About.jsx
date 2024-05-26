@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import img1 from "../assets/Images/picture1.jpeg";
 // import img2 from "../assets/Images/picture2.jpeg";
-import img3 from "../assets/Images/picture3.jpeg";
+// import img3 from "../assets/Images/picture3.jpeg";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -175,7 +175,7 @@ inspiring and jaw dropping.
           data-scroll
           data-scroll-speed="5"
         /> */}
-        <img
+{/*         <img
           width="400"
           height="600"
           className="small-img-2"
@@ -183,7 +183,7 @@ inspiring and jaw dropping.
           alt="About Us"
           data-scroll
           data-scroll-speed="-2"
-        />
+        /> */}
       </Right>
     </Section>
   );
