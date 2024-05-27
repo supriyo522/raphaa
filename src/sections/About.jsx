@@ -9,6 +9,7 @@ const Section = styled.section`
   min-height: 100vh;
   width: 80vw;
   margin: 0 auto;
+  
 
   position: relative;
 
@@ -31,14 +32,16 @@ const Left = styled.div`
   position: relative;
   z-index: 5;
   margin-top: 20%;
- 
+  display:flex;
+  text-align:justify;
+  justify-content:center;
 
   @media (max-width: 64em) {
     width: 80%;
 
     position: relative;
     // top: 50%;
-    margin-top: 23%;
+    // margin-top: 23%;
     // left: 50%;
     // transform: translate(-50%, -50%) !important;
     // margin: 0 auto;
@@ -49,21 +52,35 @@ const Left = styled.div`
     backdrop-filter: blur(2px);
     background-color: ${(props) => `rgba(${props.theme.textRgba},0.4)`};
     border-radius: 20px;
+
+    display:flex;
+
+    text-align:justify;
+    justify-content:center;
   }
   @media (max-width: 48em) {
-    font-size: ${(props) => props.theme.fontmd};
+    font-size: ${(props) => props.theme.fontsm};
+     display:flex;
+    text-align:justify;
+    justify-content:center;
   }
   @media (max-width: 30em) {
     font-size: ${(props) => props.theme.fontsm};
-    padding: 2rem;
-    width: 70%;
+    // padding: 2rem;
+    display:flex;
+    text-align:justify;
+    justify-content:center;
   }
 `;
 
 const Right = styled.div`
   width: 50%;
   position: relative;
-  /* min-height: 100vh; */
+   min-height: 100vh; 
+   display:flex;
+    text-align:justify;
+    justify-content:center;
+  
 
   img {
     width: 100%;
@@ -86,11 +103,11 @@ const Right = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: justify;
     img {
       width: 100%;
-      height: 100vh;
-      object-fit: cover;
+      height: auto;
+      // object-fit: cover;
     }
 
     .small-img-1 {
@@ -108,10 +125,36 @@ const Right = styled.div`
       bottom: 20%;
     }
   }
+  @media (max-width: 48em) {
+    width: 100%;
+    ${'' /* height:100%; */}
+    display: flex;
+    justify-content: center;
+    align-items: justify;
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+  @media (max-width: 30em) {
+    width: 100%;
+    ${'' /* height:100%; */}
+
+
+    display: flex;
+    justify-content: center;
+    align-items: justify;
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    }
 `;
 
 const Title = styled.h1`
-  font-size: ${(props) => props.theme.fontBig};
+  font-size: ${(props) => props.theme.fontxxxl};
   font-family: "Kaushan Script";
   font-weight: 150;
   /* text-transform: capitalize; */
@@ -126,12 +169,19 @@ const Title = styled.h1`
   }
 
   @media (max-width: 64em) {
-    font-size: ${(props) => `calc(${props.theme.fontBig} - 5vw)`};
+    // font-size: ${(props) => `calc(${props.theme.fontBig} - 5vw)`};
+    font-size: ${(props) => props.theme.fontxxxl};
     top: 0;
-    left: 0%;
+    left: 15%;
   }
   @media (max-width: 48em) {
     font-size: ${(props) => props.theme.fontxxxl};
+     top:2%;
+  }
+  @media (max-width: 30em){
+    font-size: ${(props) => props.theme.fontxxl};
+    top:3%;
+    margin-left:10;
   }
 `;
 
