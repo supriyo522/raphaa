@@ -36,11 +36,12 @@ const Left = styled.div`
   @media (max-width: 64em) {
     width: 80%;
 
-    position: absolute;
-    top: 50%;
+    position: relative;
+    // top: 50%;
+    margin-top: 23%;
     left: 50%;
-    transform: translate(-50%, -50%) !important;
-    margin: 0 auto;
+    // transform: translate(-50%, -50%) !important;
+    // margin: 0 auto;
 
     padding: 2rem;
     font-weight: 600;
@@ -144,7 +145,7 @@ const About = () => {
       >
         Susan Mantosh
       </Title>
-      <Left data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
+      <Left>
       Mrs. Susan Mantosh is an enigmatic persona!
         <br />
         <br/>
