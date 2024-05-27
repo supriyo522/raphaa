@@ -45,7 +45,9 @@ const Title = styled.h1`
   z-index: 11;
 
   @media (max-width: 64em) {
-    font-size: ${(props) => props.theme.fontxxl};
+    font-size: ${(props) => props.theme.fontxl};
+    top:1rem;
+    z-index: 11;
   }
   @media (max-width: 48em) {
     font-size: ${(props) => props.theme.fontxl};
@@ -64,18 +66,27 @@ const Left = styled.div`
   left: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  text-align:justify;
 
   p {
-    font-size: ${(props) => props.theme.fontlg};
+    font-size: ${(props) => props.theme.fontmd};
     font-weight: 300;
     width: 90%;
     margin: 0 auto;
+    display: flex;
+  justify-content: center;
+  text-align:justify;
+  margin-top:10%
   }
 
   @media (max-width: 64em) {
     p {
-      font-size: ${(props) => props.theme.fontmd};
+      font-size: ${(props) => props.theme.fontsm};
+       font-weight: 300;
+    width: 80%;
+      display: flex;
+  justify-content: center;
+  text-align:justify;
     }
   }
 
@@ -86,8 +97,13 @@ const Left = styled.div`
     }
   }
   @media (max-width: 30em) {
+  width:60%;
     p {
       font-size: ${(props) => props.theme.fontxs};
+      width:90%;
+      display: flex;
+  justify-content: center;
+  text-align:justify;
     }
   }
 `;
