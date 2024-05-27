@@ -39,7 +39,7 @@ const Left = styled.div`
     position: relative;
     // top: 50%;
     margin-top: 23%;
-    left: 50%;
+    // left: 50%;
     // transform: translate(-50%, -50%) !important;
     // margin: 0 auto;
 
