@@ -108,17 +108,25 @@ const Title = styled(motion.h1)`
   text-shadow: 1px 1px 1px ${(props) => props.theme.text};
 
   position: absolute;
-  top: 0.5rem;
+  top: 2.5rem;
   left: 1rem;
   z-index: 15;
 
   @media (max-width: 64em) {
-    font-size: ${(props) => props.theme.fontxxl};
-
+    font-size: ${(props) => props.theme.fontxl};
+ top:1rem;
+    left: 1rem;
+  z-index: 15;
 
   }
   @media (max-width: 48em) {
-    font-size: ${(props) => props.theme.fontxl};
+    font-size: ${(props) => props.theme.fontlg};
+  
+  }
+    @media (max-width: 30em) {
+    font-size: ${(props) => props.theme.fontlg};
+    top:2rem;
+    ${'' /* buttom:1rem; */}
   
   }
 `;
