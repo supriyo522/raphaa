@@ -163,7 +163,7 @@ const Item = styled.div`
   }
 
   img {
-    width: 100%;
+    width: 80%;
     height: auto;
     z-index: 5;
   }
