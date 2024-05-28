@@ -69,7 +69,7 @@ const Left = styled.div`
   text-align:justify;
 
   p {
-    font-size: ${(props) => props.theme.fontmd};
+    font-size: ${(props) => props.theme.fontlg};
     font-weight: 300;
     width: 90%;
     margin: 0 auto;
