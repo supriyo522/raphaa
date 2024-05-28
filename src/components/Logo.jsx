@@ -76,8 +76,8 @@ const Logo = () => {
   return (
     <Container>
       <Link to="/">
-        <img width="200"
-          height="200" src={logoImage} alt="Wibe Fashion" />
+        <img width="100"
+          height="100" src={logoImage} alt="Wibe Fashion" />
         {/* <svg
           xmlns="http://www.w3.org/2000/svg"
           enableBackground="new 0 0 24 24"
