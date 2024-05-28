@@ -32,6 +32,7 @@ const Left = styled.div`
   position: relative;
   z-index: 5;
   margin-top: 20%;
+   margin-right:5%;
   display:flex;
   text-align:justify;
   justify-content:center;
@@ -181,6 +182,16 @@ const Title = styled.h1`
   @media (max-width: 30em){
     font-size: ${(props) => props.theme.fontxxl};
     top:3%;
+    margin-left:10;
+  }
+  @media (max-width: 20em){
+    font-size: ${(props) => props.theme.fontxl};
+    top:1.5%;
+    // margin-left:10;
+  }
+  @media (max-width: 24em){
+    font-size: ${(props) => props.theme.fontxl};
+    top:2%;
     margin-left:10;
   }
 `;
