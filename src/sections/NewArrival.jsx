@@ -6,7 +6,7 @@ import styled from 'styled-components';
 
 import img1 from '../assets/Images/image13.jpg';
 import img2 from '../assets/Images/image19.jpg';
-import img3 from '../assets/Images/image16.jpg';
+import img3 from '../assets/Images/image21.jpg';
 import img4 from '../assets/Images/image17.jpg';
 import img5 from '../assets/Images/image18.jpg';
 import img6 from '../assets/Images/image20.jpg';
