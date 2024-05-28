@@ -113,7 +113,7 @@ const Title = styled(motion.h1)`
   z-index: 15;
 
   @media (max-width: 64em) {
-    font-size: ${(props) => props.theme.fontxl};
+    font-size: ${(props) => props.theme.fontlg};
  top:1rem;
     left: 1rem;
   z-index: 15;
@@ -145,7 +145,7 @@ const Text = styled.div`
   
   }
   span {
-    font-size: ${(props) => props.theme.fontxxl}; /* Larger font size for "lookbook" */
+    font-size: ${(props) => props.theme.fontxl}; /* Larger font size for "lookbook" */
     font-family: 'Kaushan Script';
     font-weight: bold;
   }
@@ -171,7 +171,7 @@ const Item = styled.div`
 const Photos = ({ img, name }) => {
   return (
     <Item>
-      <img width="300" height="600" src={img} alt={name} />
+      <img width="200" height="400" src={img} alt={name} />
       <h2>{name}</h2>
     </Item>
   );
