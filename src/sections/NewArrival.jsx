@@ -9,7 +9,7 @@ import img2 from '../assets/Images/image19.jpg';
 import img3 from '../assets/Images/image16.jpg';
 import img4 from '../assets/Images/image17.jpg';
 import img5 from '../assets/Images/image18.jpg';
-// import img6 from '../assets/Images/image6.jpg';
+import img6 from '../assets/Images/image20.jpg';
 // import img7 from '../assets/Images/image7.jpg';
 // import img8 from '../assets/Images/image8.jpg';
 // import img9 from '../assets/Images/image9.jpg';
@@ -250,6 +250,7 @@ let t1= gsap.timeline();
         <Photos img={img3} name="" />
         <Photos img={img4} name="" />
         <Photos img={img5} name="" />
+        <Photos img={img6} name="" />
 
         {/* <Photos img={img2} name="Garment No. 2" />
         <Photos img={img3} name="Garment No. 3" />
