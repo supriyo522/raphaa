@@ -56,17 +56,17 @@ const Overlay = styled.div`
   width: 50vw;
   box-shadow: 0 0 0 60vw ${(props) => props.theme.text};
 
-    height: 80vh;
+    height: 90vh;
   }
   @media (max-width: 48em) {
   width: 60vw;
 
-    height: 80vh;
+    height: 85vh;
   }
   @media (max-width: 30em) {
   width: 80vw;
 
-    height: 60vh;
+    height: 80vh;
   }
 `;
 
@@ -100,7 +100,7 @@ const Container = styled.div`
 `;
 
 const Title = styled(motion.h1)`
-  font-size: ${(props) => props.theme.fontxxxl};
+  font-size: ${(props) => props.theme.fontxxl};
   font-family: 'Kaushan Script';
   font-weight: 200;
   /* text-transform: capitalize; */
@@ -108,7 +108,7 @@ const Title = styled(motion.h1)`
   text-shadow: 1px 1px 1px ${(props) => props.theme.text};
 
   position: absolute;
-  top: 2.5rem;
+  top: 3.5rem;
   left: 1rem;
   z-index: 15;
 
