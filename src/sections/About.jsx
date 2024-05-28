@@ -210,20 +210,9 @@ const About = () => {
       Mrs. Susan Mantosh is an enigmatic persona!
         <br />
         <br/>
-        She is an internationally acclaimed fashion designer, a successful business
-woman, a socio-religious worker, an and advocate of The Honorable High
-Court of Kolkata. She is the face behind Citimart, New Empire Cinema and
-restaurants like The Scoop, La Dolce Vita, Oriental Plaza and Miss Ginko’s.
-She is also the director of NIFD Global, Kolkata, Lindsay Street.
+       She is an Internationally acclaimed fashion designer, a successful business woman, a socio-religious worker, and an advocate of The Honorable High Court of Kolkata. She is the face behind Citimart, New Empire Cinema and restaurants like The Scoop, La Dolce Vita, Oriental Plaza and Miss Ginko’s. She is also the director of NIFD Global, Kolkata, Lindsay Street.
         <br />
-        She has been awarded the Mother Teresa Ratna Award and the Mother
-Teresa International and Millenium Award for her exemplary efforts
-towards society. Her service to the community extends beyond patronizing
-the skills of local artisans in India and Nepal.Mrs. Mantosh has been designing haute couture garments, avant garde
-accessories and decorative artifacts for over a decade. She has showcased her
-creations at several National and International Fashion Weeks. Her unique
-and over the top garments have left an indelible mark on fashion. She is awe
-inspiring and jaw dropping.
+       She has been awarded the Mother Teresa Ratna Award and the Mother Teresa International and Millenium Award for her exemplary efforts towards the society. Her service to the community extends beyond patronizing the skills of local artisans in India and Nepal. Mrs. Mantosh has been designing haute couture garments, avant garde accessories and decorative artifacts for over a decade. She has showcased her creations at several National and International Fashion Weeks. Her unique and over the top garments have left an indelible mark on fashion. She is an awe inspiring and jaw dropping person.
       </Left>
 
       <Right>
