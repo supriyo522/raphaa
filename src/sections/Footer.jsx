@@ -42,6 +42,19 @@ const LogoContainer = styled.div`
       font-size: ${(props) => props.theme.fontxl};
     }
   }
+  h2 {
+
+    @media (max-width: 48em) {
+      font-size: ${(props) => props.theme.fontxl};
+    }
+    @media (max-width: 30em) {
+      font-size: ${(props) => props.theme.fontlg};
+    }
+    @media (max-width: 20em) {
+      font-size: ${(props) => props.theme.fontmd};
+    }
+    
+  }
 `;
 
 const FooterComponent = styled(motion.footer)`
