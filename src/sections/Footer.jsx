@@ -137,6 +137,8 @@ const Footer = () => {
         <h3 data-scroll data-scroll-speed="-1">
           Susan Mantosh
         </h3>
+         <h2>Ph. No: +91 9830020086</h2>
+<h2>Email: susanmantosh.thebrand@gmail.com</h2>
       </LogoContainer>
       <FooterComponent
         initial={{ y: "-400px" }}
